@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <!-- Bootstrap Icons CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+    />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #fff;
+        font-family: "Open Sans", sans-serif;
+      }
+      .profile-container {
+        background-color: #ffc300;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+      }
+      .profile-container img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+        font-size: 18px;
+        color: black;
+      }
+      .icon i {
+        margin-right: 10px;
+      }
+      .logout-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .logout-btn:hover {
+        background-color: white;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-container">
+      <img src="profile.jpg" alt="Profile Image" />
+      <p>Kanchana</p>
+      <p>jhon@gmail.com</p>
+      <hr />
+      <div class="icon">
+        <i class="bi bi-person-badge"></i>
+        <span>Player ID</span>
+      </div>
+      <div class="icon">
+            <i class="bi bi-person"></i>
+            <span>Account Profile</span>
+      </div>
+      <div class="icon">
+        <i class="bi bi-card-checklist"></i>
+        <span>Subscription</span>
+      </div>
+      <div class="icon">
+        <i class="bi bi-trophy"></i>
+        <span>Levels Completed</span>
+      </div>
+      <hr />
+      <a href="C:\Users\user\Desktop\Front End CA4\login\index.html" class="logout-btn">Log Out</a>
+    </div>
+  </body>
+</html>

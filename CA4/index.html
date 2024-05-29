@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><i class='bx bx-chevron-right' id="back"></i></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Game Play</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Merch</a></li>
+    </ul>
+    <ul>
+      <li><img src="./img/Unravel_logo.png" alt=""></li>
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li class="hideOnMobile"><a href="#">Game Play</a></li>
+      <li class="hideOnMobile"><a href="#">About Us</a></li>
+      <li class="hideOnMobile"><a href="#">Merch</a></li>
+      <form action="../login/index.html">
+        <li><button class="header-btn">Sign Up</button></li>
+      </form>
+      <a href="C:\Users\user\Desktop\Front End CA4\CA4-WD\index.html">
+          <li><i class='bx bxs-user'></i></li>
+
+      </a>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><i class='bx bx-menu'></i></a></li>
+      </ul>
+  </nav>
+  <section class="hero-banner">
+    <div class="hb-text">
+      <img src="./img/Unravel.png" alt="">
+      <p>At Unravel Games, we are passionate about blending captivating storytelling with
+        Bhutanese history to create unforgettable gaming experiences. Our mission is to
+        immerse players in rich narratives inspired by the cultural heritage and legends of
+        Bhutan.</p>
+      <button class="hb-btn"><a href="">Play Now</a></button>
+    </div>
+    <div class="hb-image">
+      <img src="./img/bg_people.png" alt="">
+    </div>
+  </section>
+
+  <section class="key-feature">
+    <div class="h2">
+      <h2>Key Features</h2>
+    </div>
+    <div class="key-features-container">
+      <div class="Feature-img">
+      </div>
+    </div>
+  </section>
+  <section class="edition">
+    <div class="h2">
+      <h2>Which Will You CHOOSE?</h2>
+    </div>
+    <div class="edition-container">
+      <div class="edition-card">
+        <div class="card-img">
+          <img src="img/chronicle_edition.png" alt="chronicle_edition" />
+        </div>
+
+        <div>
+          <h3 class="h3 card-title">UNRAVELS: Chronicles Edition</h3>
+        </div>
+
+        <p class="card-text">
+          This game edition focuses on backstory of places diving into the real
+          history. The game will allow players to explore different time periods
+          and witness key moments from the past. The chronicles edition, would
+          feature new characters that the players will be playing.
+        </p>
+
+        <a href="#" class="btn-text">
+          <button class="btn1">Learn More</button>
+        </a>
+      </div>
+      <div class="edition-card">
+        <div class="card-img">
+          <img src="img/time_edition.png" alt="chronicle_edition" />
+        </div>
+
+        <div>
+          <h3 class="h3 card-title">UNRAVELS: Time Edition</h3>
+        </div>
+        <p class="card-text">
+          The challenging limited-time edition of the Unravels game will
+          challenge each and every young players to actualize their full
+          potential in the game as everything is limited-time meaning they have
+          to complete tasks within a specific period of time.
+          out.
+        </p>
+
+        <a href="#" class="btn-text">
+          <button class="btn">Learn More</button>
+        </a>
+      </div>
+    </div>
+    <div class="hr1">
+      <hr>
+    </div>
+
+  </section>
+  <section class="footer">
+    <div class="contact-us">
+      <div class="h2">
+        <h2>Request More Information</h2>
+      </div>
+
+      <p class="contact-us-text">
+        Unravel is a web-based interactive game that enhances the use of creative elements in learning.
+      </p>
+
+      <div class="cu-btn"><button><a href="">Contact Us</a></button></div>
+
+      <p class="contact-us-text-small">
+        © 2024 Unravel
+      </p>
+    </div>
+
+    <hr>
+    <div class="footer-inner">
+      <div class="footer-img">
+        <img src="./img/white-logo.png" alt="chronicle_edition" />
+      </div>
+
+      <div class="text-all">
+        <div class="footer-text">
+          Our Team
+        </div>
+        <div class="footer-text">
+          Case Studies
+        </div>
+        <div class="footer-text">
+          Customer feedback
+        </div>
+      </div>
+
+      <div class="social-media-img">
+        <img src="./img/social_media.png" alt="chronicle_edition" />
+      </div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>

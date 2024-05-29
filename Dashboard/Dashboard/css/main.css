@@ -1,0 +1,622 @@
+body{
+  background: url(../images/3.png);
+}
+
+.dashboad{
+  display: flex;
+  margin: 5rem;
+  border-radius: 14px;
+}
+
+.leftside{
+  text-align: center;
+  flex: 1;
+  background-color: white;
+  border-radius: 14px;
+}
+
+.leftside div{
+  display: flex;
+  justify-content: left;
+  margin-left: 20%;
+}
+
+.leftside .pfpic{
+  height: 170px;
+  width: 190px;
+  border-radius: 50%;
+  margin: 5rem 2rem 0 2rem;
+}
+
+.leftside .line1{
+  margin-left: 2rem;
+  width: 80%;
+  border: solid 2px black;
+}
+
+.leftside .logout{
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #FFC300;
+  background-color: black;
+  width: 120px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.rightside{
+  background-color: #FFC300;
+  width: 100%; 
+  flex: 6;
+  padding-top: 2rem ;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 14px;
+}
+.tophead{
+  display: flex;
+  margin-bottom: 1rem ;
+}
+
+.tophead .personal{
+  flex: 12;
+}
+
+.tophead .support_btn{
+  flex: 2;
+  margin-top: 1rem;
+}
+
+.tophead .support_btn button{
+  color: white;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 14px;
+}
+
+.top{
+  display: flex;
+}
+
+.rand{
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  border-radius: 14px;
+  margin-right: 2rem;
+  height: 165px;
+}
+
+.rand img{
+  width: 130px;
+  height: 120px;
+  border-radius: 100%;
+  border: solid 5px black;
+  padding: 1rem;
+}
+
+.rand div{
+  position: absolute;
+}
+
+.rand .one{
+  left: 27%;
+  top: 31%;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  border: 5px solid #9747FF;
+  border-radius: 50%;
+}
+
+.rand .two{
+  left: 26%;
+  top: 44%;
+  height: 25px;
+  padding: 10px;
+  width: 25px;
+  border: 5px solid #47FF91;
+  border-radius: 50%;
+}
+
+.rand .three{
+  left: 27%;
+  top: 56%;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  border: 5px solid #FF4747;
+  border-radius: 50%;
+}
+
+.rand .four{
+  left: 40%;
+  top: 31%;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  border: 5px solid #9747FF;
+}
+
+.rand .five{
+  left: 41.5%;
+  top: 44%;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  border: 5px solid #47FF91;
+}
+
+.rand .six{
+  left: 40%;
+  top: 56%;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  border: 5px solid #FF4747;
+}
+
+.rand2{
+  background-color: white;
+  flex: 2;
+  height: 260px;
+  border-radius: 14px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.rand2 h1{
+  text-align: center;
+}
+
+.contentinfo div:nth-child(1) p{
+  margin-top: -20px;
+}
+
+.contentinfo div:nth-child(2) div{
+  display: flex;
+}
+
+.contentinfo div:nth-child(2) div img{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.rand2 .contentimg{
+  width: 100px;
+}
+
+.rand2 .contentinner{
+  display: flex;
+}
+
+.rand2 .contentinner .contentimg{
+  width: 104px;
+  height: 119px;
+  margin: -1rem 2rem 0 2rem;
+}
+
+.rand3{
+  margin-left: 2rem;
+  flex: 2;
+}
+
+.rand3 img{
+  width: 100%;
+  height: 290px;
+  border-radius: 14px;
+}
+
+.bottom{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.bottominfo1{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  width: 630px;
+  text-align: center;
+}
+
+.bottom .erasimg{
+  display: flex;
+}
+
+.bottom .erasimg img{
+  width: 165px;
+  margin: 1rem;margin-bottom: 0;
+}
+
+.bottominfo2{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  margin-left: 2rem;
+  width: 270px;
+  text-align: center;
+}
+
+.bottominfo2 h3{
+  position: absolute;
+  top: 93%;
+  right: 15%;
+}
+
+.account{
+  color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1445px) {
+
+  .dashboad{
+    margin: 5rem;
+  }
+
+  .rand .one{
+    left: 27rem;
+    top: 13rem;
+  }
+  
+  .rand .two{
+    left: 25rem;
+    top: 19rem;
+  }
+  
+  .rand .three{
+    left: 27rem;
+    top: 26rem;
+  }
+  
+  .rand .four{
+    left: 37rem;
+    top: 13rem;
+  }
+  
+  .rand .five{
+    left: 39rem;
+    top: 19rem;
+  }
+  
+  .rand .six{
+    left: 37rem;
+    top: 26rem;
+  }
+  .bottominfo2 h3{
+    position: absolute;
+    top: 42.5rem;
+    right: 10.5rem;
+  }
+
+  
+}
+
+@media screen and (max-width:1025px) {
+  .dashboad{
+    margin: 1rem;
+  }
+  .tophead .personal{
+    flex: 7;
+  }
+  .rand{
+    width: 150px;
+    height: 150px;
+  }
+  .rand img{
+    margin-left: -8px;
+  }
+  .rand .one{
+    left: 23rem;
+    top: 10rem;
+  }
+  
+  .rand .two{
+    left: 20.5rem;
+    top: 15rem;
+  }
+  
+  .rand .three{
+    left: 23rem;
+    top: 21rem;
+  }
+  
+  .rand .four{
+    left: 32rem;
+    top: 10rem;
+  }
+  
+  .rand .five{
+    left: 34.5rem;
+    top: 15rem;
+  }
+  
+  .rand .six{
+    left: 33rem;
+    top: 21rem;
+  }
+  .rand2{
+    padding: 10px;
+  }
+  .bottominfo2 h3{
+    position: absolute;
+    top: 39rem;
+    right: -10rem;
+  }
+}
+
+
+@media screen and (max-width:770px) {
+  .dashboad{
+    flex-direction: column;
+    margin: 3.5rem;
+  }
+  .leftside{
+    width: 640px;
+  }
+  .leftside .line1{
+    width: 90%;
+  }
+  .leftside div{
+    margin-left: 40%;
+  }
+  .rightside{
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 610px;
+  }
+  .tophead .personal{
+    flex: 6;
+  }
+  .top{
+    flex-direction: column;
+  }
+  .rand{
+    width: 475px;
+  }
+  .rand .one{
+    left: 17rem;
+    top: 57rem;
+  }
+  
+  .rand .two{
+    left: 13rem;
+    top: 64rem;
+  }
+  
+  .rand .three{
+    left: 17rem;
+    top: 70rem;
+  }
+  
+  .rand .four{
+    left: 27rem;
+    top: 57rem;
+  }
+  
+  .rand .five{
+    left: 31rem;
+    top: 64rem;
+  }
+  
+  .rand .six{
+    left: 27rem;
+    top: 70rem;
+  }
+
+  .rand2{
+    margin-top: 2rem;
+    width: 570px;
+  }
+  .contentinfo{
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .rand2 .contentinner .contentimg{
+    width: 200px;
+    height: 119px;
+    margin: -3rem 0 0 5rem;
+  }
+
+  .rand3{
+    margin-top: 2rem;
+    width: 605px;
+    margin-left: 0;
+  }
+  .bottom{
+    flex-direction: column;
+  }
+
+  .bottominfo1{
+    width: 570px;
+  }
+  .bottom .erasimg img{
+    width: 160px;
+  }
+  .bottominfo2{
+    margin-top: 2rem;
+    width: 570px;
+    margin-left: 0;
+  }
+  .bottominfo2 h3{
+    position: absolute;
+    top: 143rem;
+    right: 21rem;
+  }
+}
+
+
+@media screen and (max-width:430px) {
+  .dashboad{
+    flex-direction: column;
+  }
+  .leftside{
+    width: 340px;
+  }
+  .leftside .line1{
+    margin-left: 2rem;
+    width: 80%;
+    border: solid 2px black;
+  }
+  .rightside{
+    width: 275px;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .tophead .personal{
+    flex: 4;
+    font-size: 12px;
+  }
+  .tophead .support_btn{
+    margin-top: 0;
+  }
+  .tophead .support_btn button{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .top{
+    flex-direction: column;
+  }
+  .rand{
+    width: 140px;
+    height: 160px;
+    padding: 2rem 4rem 0 4rem;
+  }
+  .rand img{
+    width: 90px;
+    height: 90px;
+  }
+  .rand .one{
+    left: 8rem;
+    top: 57rem;
+    padding: 5px;
+  }
+  
+  .rand .two{
+    left: 6rem;
+    top: 61rem;  
+    padding: 5px;
+  }
+  
+  .rand .three{
+    left: 8rem;
+    top: 65rem;  
+    padding: 5px;
+  }
+  
+  .rand .four{
+    left: 17.5rem;
+    top: 57rem;
+    padding: 5px;
+  }
+  
+  .rand .five{
+    left: 20rem;
+    top: 61rem;    
+    padding: 5px;
+  }
+  
+  .rand .six{
+    left: 17.5rem;
+    top: 65rem;  
+    padding: 5px;
+  }
+
+  .rand2{
+    margin-top: 2rem;
+    width: 235px;
+  }
+  .contentinfo{
+    margin-left: 10px;
+    margin-bottom: 2rem;
+  }
+  .rand2 .contentinner .contentimg{
+    width: 100px;
+    height: 99px;
+    margin: -2rem 0 0 10px;
+  }
+
+  .rand3{
+    width: 265px;
+    margin-left: 0;
+  }
+  .bottom{
+    flex-direction: column;
+  }
+
+  .bottominfo1{
+    width: 230px;
+  }
+  .bottom .erasimg img{
+    width: 160px;
+  }
+  .bottominfo2{
+    margin-top: 2rem;
+    width: 235px;
+    margin-left: 0;
+  }
+  .bottominfo2 h3{
+    position: absolute;
+    top: 160rem;
+    right: 10rem;
+  }
+
+  .bottom .erasimg{
+    flex-direction: column;
+    margin-left: 1.3rem;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .dashboad{
+    margin: 5px;
+  }
+  .rand .one{
+    left: 5rem;
+    top: 54rem;
+    padding: 5px;
+  }
+  
+  .rand .two{
+    left: 3rem;
+    top: 58rem;  
+    padding: 5px;
+  }
+  
+  .rand .three{
+    left: 5rem;
+    top: 62rem;  
+    padding: 5px;
+  }
+  
+  .rand .four{
+    left: 14rem;
+    top: 54rem;
+    padding: 5px;
+  }
+  
+  .rand .five{
+    left: 16rem;
+    top: 58rem; 
+    padding: 5px;
+  }
+  
+  .rand .six{
+    left: 14rem;
+    top: 62rem;  
+    padding: 5px;
+  }
+
+}
